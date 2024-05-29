@@ -1,0 +1,34 @@
+{
+    "name": "Linkedin Profile Changer",
+    "description": "this extension allows you set all the profile picture of the home page to your desired picture",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "author": "mdyusuf2521@gmail.com",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.linkedin.com/feed/"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "activeTab"
+    ],
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "64":"icon.png"
+    },
+
+    "action": {
+        "default_popup": "./popup/index.html"
+    },
+    "externally_connectable": {
+        "matches": [
+            "https://www.linkedin.com/feed/"
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+html{
+    border-radius: 0.5rem;
+}
+body{
+    background-color: whitesmoke;
+}
+
+.input_container{
+    padding:1.5rem;
+}
+
+.input_container>label{
+    font-size: 1rem;
+    font-weight: lighter;
+    color:rgba(0, 0, 0, 0.764);
+    display: block;
+    margin-bottom:1rem;
+}
+
+.input_container>input{
+    padding: 0.5rem 0.25rem;
+    border-radius: 0.25rem;
+}
+
+.input_container>button{
+    padding:0.5rem 1rem;
+    border:none;
+    display: block;
+    margin:1rem auto;
+    background-color: slategray;
+    border-radius: 0.25rem;
+    color:white;
+    cursor: pointer;
+}
